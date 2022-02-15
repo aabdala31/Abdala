@@ -13,6 +13,15 @@ body{
   height: 100vh;
 }
 
+#loader{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: #fff url("icon.gif") no-repeat center center;
+}
+
 /*------------------------------------------------------------------------------------------*/
 
 header{
