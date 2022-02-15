@@ -11,8 +11,35 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="text/javascript">
+
+    var loader;
+    function loadnow(opacity){
+      if(opacity <= 0){
+        displayContent();
+      }
+      else{
+        loader.style.opacity = opacity;
+        window.setTimeout(function () {
+          loadnow(opacity-0.05)
+        }, 100);
+      }
+    }
+
+    function displayContent(){
+      loader.style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+    }
+
+    document.addEventListener("DOMContentLoaded", function (){
+      loader = document.getElementById('loader');
+      loadnow(1);
+    });
+
+  </script>
 </head>
 <body>
+    <div id="loader"></div>
     <header>
       <section>
         <a id="nombre" href="index.html"> AGUSTIN ABDALA </a>
