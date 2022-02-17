@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Raleway;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+.texto1{
+    margin: 5% 29% 3%;
+}
+
+.texto2{
+    margin: 0 30% 1%;
+}
+
+.texto3{
+    margin: 0 24% 5%;
+}
+
+.gatitoTriste{
+    max-height: 100%;
+    height: 30%;
+    width: auto;
+    margin: 0 42% 5%;
+}
+
