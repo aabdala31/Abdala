@@ -13,14 +13,7 @@ body{
   height: 100vh;
 }
 
-#loader{
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  z-index: 1;
-  overflow: visible;
-  background: #fff url("icon.gif") no-repeat center center;
-}
+
 /*------------------------------------------------------------------------------------------*/
 
 header{
@@ -44,18 +37,48 @@ header section .botones{
   font-family: "Raleway";
   color: black;
   text-decoration: none;
-  padding-right: 2rem;
+  margin-right: 2rem;
 }
 
-header section #botonPortfolio{
+header section .botonPortfolio{
   font-family: "Raleway";
   justify-content: right;
   color: black;
   text-decoration: none;
-  padding-left: 16rem;
-  padding-right: 2rem;
+  margin-left: 16rem;
+  margin-right: 2rem;
 }
 
+.botonesFalsos{
+  display: none;
+  text-decoration: none;
+  color: black;
+}
+
+.botonesFalsosP{
+  display: none;
+  text-decoration: none;
+  color: black;
+}
+
+.barraBotones a:hover + .botonesFalsos{
+  display: revert;
+  margin-right: 2rem;
+}
+
+.barraBotones a:hover + .botonesFalsosP{
+  margin-left: 16rem;
+  margin-right: 2rem;
+  display: revert;
+}
+
+.botonPortfolio:hover{
+  display: none;
+}
+
+.botones:hover{
+  display: none;
+}
 
 /*------------------------------------------------------------------------------------------*/
 
