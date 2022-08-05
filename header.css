@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    padding-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#nombre {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0 1.5rem;
+    font-size: 70px;
+    display: flex;
+}
+
+#nombre > a{
+    font-family: "Raleway";
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.barraBotones {
+    display: flex;
+    height: 100%;
+    width: 30%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.botonHeader {
+    cursor: pointer;
+    transition-duration: 0.15s;
+    transition: border-color 0.15s ease-in-out;
+    font-family: "Raleway";
+    color: black;
+    text-decoration: none;
+    border-bottom: 2.5px solid transparent;
+}
+
+.botonHeader+.botonHeader {
+    margin-left: 1rem;
+}
+
+.botonHeader:hover {
+    transition: border-color 0.15s ease-in-out;
+    border-bottom: 2.5px solid black;
+}
+
+@media screen and (max-width: 940px) {
+    #nombre {
+        width: fit-content;
+    }
+
+    #nombre > a{
+        font-size: 50px;
+    }
+
+    .barraBotones {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .headerContainer {
+        width: fit-content;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    #nombre > a {
+        font-size: 40px;
+    }
+}

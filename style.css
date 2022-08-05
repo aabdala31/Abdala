@@ -16,69 +16,7 @@ body{
 
 /*------------------------------------------------------------------------------------------*/
 
-header{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20%;
-  padding-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
 
-header section #nombre{
-  font-family: "Raleway";
-  padding-left: 2rem;
-  font-size: 70px;
-  color: black;
-  text-decoration: none;
-}
-
-header section .botones{
-  font-family: "Raleway";
-  color: black;
-  text-decoration: none;
-  margin-right: 2rem;
-}
-
-header section .botonPortfolio{
-  font-family: "Raleway";
-  justify-content: right;
-  color: black;
-  text-decoration: none;
-  margin-left: 16rem;
-  margin-right: 2rem;
-}
-
-.botonesFalsos{
-  display: none;
-  text-decoration: none;
-  color: black;
-}
-
-.botonesFalsosP{
-  display: none;
-  text-decoration: none;
-  color: black;
-}
-
-.barraBotones a:hover + .botonesFalsos{
-  display: revert;
-  margin-right: 2rem;
-}
-
-.barraBotones a:hover + .botonesFalsosP{
-  margin-left: 16rem;
-  margin-right: 2rem;
-  display: revert;
-}
-
-.botonPortfolio:hover{
-  display: none;
-}
-
-.botones:hover{
-  display: none;
-}
 
 /*------------------------------------------------------------------------------------------*/
 
@@ -364,34 +302,3 @@ header section .botonPortfolio{
 }
 
 /*------------------------------------------------------------------------------------------*/
-
-@media (max-width: 1211px){
-  header{
-    flex-direction: column;
-  }
-  header section #botonPortfolio{
-    padding-left: 1rem;
-  }
-}
-
-@media (max-width: 633px) {
-  header section #nombre{
-    padding-left: 0;
-  }
-}
-
-@media (max-width: 600px){
-  header{
-    height: 12%;
-  }
-  header section #nombre{
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 425px){
-  header{
-    padding-left: 10.5rem;
-  }
-
-}
