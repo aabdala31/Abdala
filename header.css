@@ -84,3 +84,13 @@ header {
         font-size: 40px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #nombre > a {
+        letter-spacing: -1px;
+    }
+
+    #nombre {
+        margin-bottom: 1rem;
+    }
+}
