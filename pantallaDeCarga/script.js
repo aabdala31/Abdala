@@ -1,19 +1,36 @@
 // Preload all images
 function preloadImages() {
-  const images = [];
-  for (let i = 1; i <= 36; i++) {
-    const img = new Image();
-    img.src = `../fotos/img${i}.jpg`;
-    images.push(img);
-  }
+  return new Promise((resolve) => {
+    const images = [];
+    let loadedCount = 0;
+    let totalImages = 36;
+
+    for (let i = 1; i <= totalImages; i++) {
+      const img = new Image();
+      
+      img.onload = () => {
+        loadedCount++;
+        if (loadedCount === totalImages) {
+          resolve();
+        }
+      };
+      
+      img.onerror = () => {
+        loadedCount++;
+        if (loadedCount === totalImages) {
+          resolve();
+        }
+      };
+      
+      img.src = `../fotos/img${i}.jpg`;
+      images.push(img);
+    }
+  });
 }
 
-// Start preloading images
-preloadImages();
-
-// Redirect to main page when everything is loaded
-window.addEventListener('load', () => {
+// Start preloading images and redirect when done
+preloadImages().then(() => {
   setTimeout(() => {
     window.location.href = '../index.html';
-  }, 500); // Small delay to ensure smooth transition
+  }, 500); // Small delay for smooth transition
 });
