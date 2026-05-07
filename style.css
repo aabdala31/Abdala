@@ -21,10 +21,9 @@ body{
 /*------------------------------------------------------------------------------------------*/
 
 .contenedor{
-  width: 100%;
+  width: 97%;
   max-width: 120rem;
   margin: auto;
-  padding: 0 1.5rem;
 }
 
 .galeriaFotos{
@@ -467,6 +466,71 @@ body.modal-open .contenedor {
     transform: translateX(60px);
     border-radius: 0 3px 3px 0;
   }
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+
+@media (max-width: 1024px){
+
+    .texto{
+        width: 85%;
+        font-size: 2.2vh;
+    }
+
+    .film-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .contenedor{
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+
+    .texto{
+        width: 100%;
+
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .texto h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .filmography{
+        padding: 3rem 1rem 4rem 1rem;
+    }
+
+    .filmography h2{
+        font-size: 2rem;
+    }
+
+    .film-grid{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .overlay h3{
+        font-size: 1rem;
+    }
+
+    .overlay p{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    .texto{
+        font-size: 0.95rem;
+    }
+
 }
 
 /*------------------------------------------------------------------------------------------*/

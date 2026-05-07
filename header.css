@@ -2,95 +2,185 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%;
-    padding-top: 2.5rem;
-    margin-bottom: 2.5rem;
+
+    width: 100%;
+
+    padding-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .headerContainer {
     display: flex;
     flex-direction: row;
+
     justify-content: center;
     align-items: center;
+
     width: 100%;
 }
 
+body.modal-open .headerContainer {
+    filter: blur(5px);
+}
+
+/* ---------------- NAME ---------------- */
+
 #nombre {
+
     width: 70%;
+
     box-sizing: border-box;
+
     padding: 0 1.5rem;
-    font-size: 70px;
+
+    font-size: 6vh;
+
     display: flex;
 }
 
-#nombre > a{
+#nombre > a {
+
     font-family: "Raleway";
+
     color: black;
+
     text-decoration: none;
+
     text-align: center;
 }
 
+/* ---------------- BUTTONS ---------------- */
+
 .barraBotones {
+
     display: flex;
+
     height: 100%;
+
     width: 30%;
+
     flex-direction: row;
+
     justify-content: flex-end;
     align-items: center;
+
     padding: 0 1.5rem;
 }
 
 .botonHeader {
+
     cursor: pointer;
+
     transition-duration: 0.15s;
     transition: border-color 0.15s ease-in-out;
+
     font-family: "Raleway";
+
     color: black;
+
     text-decoration: none;
+
     border-bottom: 2.5px solid transparent;
+
+    font-size: 1.2rem;
 }
 
-.botonHeader+.botonHeader {
+.botonHeader + .botonHeader {
     margin-left: 1rem;
 }
 
 .botonHeader:hover {
+
     transition: border-color 0.15s ease-in-out;
+
     border-bottom: 2.5px solid black;
 }
 
-@media screen and (max-width: 940px) {
-    #nombre {
-        width: fit-content;
+/* ========================================================= */
+/* ===================== RESPONSIVE ========================= */
+/* ========================================================= */
+
+@media (max-width: 1024px){
+
+    #nombre{
+        font-size: 52px;
     }
 
-    #nombre > a{
-        font-size: 50px;
+    .barraBotones{
+        width: 40%;
     }
 
-    .barraBotones {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .headerContainer {
-        width: fit-content;
-        flex-direction: column;
-    }
 }
 
-@media screen and (max-width: 660px) {
-    #nombre > a {
-        font-size: 40px;
-    }
-}
+@media (max-width: 768px){
 
-@media screen and (max-width: 768px) {
-    #nombre > a {
-        letter-spacing: -1px;
-    }
-
-    #nombre {
+    header{
+        height: 18vh;
+        padding-top: 1.5rem;
         margin-bottom: 1rem;
     }
+
+    .headerContainer{
+
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 1rem;
+    }
+
+    #nombre{
+
+        width: 100%;
+
+        justify-content: center;
+
+        padding: 0;
+
+        font-size: 42px;
+
+        text-align: center;
+    }
+
+    .barraBotones{
+
+        width: 100%;
+
+        justify-content: center;
+
+        padding: 0;
+
+        gap: 1.5rem;
+    }
+
+    .botonHeader{
+
+        font-size: 1rem;
+    }
+
+    .botonHeader + .botonHeader{
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    #nombre{
+        font-size: 30px;
+    }
+
+    .barraBotones{
+
+        gap: 1rem;
+
+        flex-wrap: wrap;
+    }
+
+    .botonHeader{
+
+        font-size: 0.9rem;
+    }
+
 }
