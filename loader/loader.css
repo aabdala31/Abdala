@@ -39,14 +39,6 @@
     align-items: center;
 }
 
-.loaderInner img{
-
-    width: 35vh;
-    height: 35vh;
-
-    animation: rotate 1.8s linear infinite;
-}
-
 .loaderInner h1{
 
     font-family: "Raleway";
@@ -54,6 +46,31 @@
     font-size: 1.8rem;
 
     font-weight: 500;
+
+}
+
+/* ---------------- ICON ---------------- */
+
+.loaderIcon{
+
+    width: 35vh;
+
+    height: 35vh;
+
+    object-fit: contain;
+
+    animation: rotateIcon 8s linear infinite;
+}
+
+@keyframes rotateIcon{ 
+
+  from{ 
+    transform: rotate(0deg); 
+  } 
+
+  to{ 
+    transform: rotate(360deg); 
+  } 
 }
 
 /* ---------------- BAR ---------------- */
