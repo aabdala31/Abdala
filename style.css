@@ -245,6 +245,7 @@ ADAPTACION AL VIDEO
     width: 72vw;
     margin-bottom: 4rem;
     user-select: none;
+    border: 2px solid transparent;
     -webkit-user-drag: none;
     -webkit-touch-callout: none;
   }
