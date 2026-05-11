@@ -220,12 +220,15 @@ ADAPTACION AL VIDEO
   }
 
   .landingContainer{
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .logo{
     width: 72vw;
-    margin-top: 4.5rem;
+    margin-bottom: 4rem;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
   }
 
   .dropdown + .botonHeader{
