@@ -1,81 +1,92 @@
-// Create modal dynamically
-const modal = document.createElement('div');
-modal.id = 'modal';
-modal.className = 'modal';
-modal.innerHTML = `
-  <span class="close">&times;</span>
-  <img class="modal-content" id="modal-img">
-  <a class="prev">&#10094;</a>
-  <a class="next">&#10095;</a>
-`;
-document.body.appendChild(modal);
+const logo = document.querySelector('.logo');
 
-const modalImg = document.getElementById('modal-img');
-const closeBtn = modal.querySelector('.close');
-const prevBtn = modal.querySelector('.prev');
-const nextBtn = modal.querySelector('.next');
+const dropdown = document.querySelector('.dropdown');
 
-// Array of image sources
-const images = [];
-for (let i = 1; i <= 36; i++) {
-  images.push(`fotos/img${i}.jpg`);
+const dropdownButton = dropdown.querySelector('.botonHeader');
+
+/* ---------------- LOGO ---------------- */
+
+function startSpin(){
+
+  logo.style.transition = 'none';
+
+  logo.style.animation = 'spinLogo 5s linear infinite';
 }
 
-let currentIndex = 0;
+function stopSpin(){
 
-// Function to show modal
-function showModal(index) {
-  currentIndex = index;
-  modalImg.src = images[currentIndex];
-  modal.style.display = 'flex';
-  document.body.classList.add('modal-open');
-}
+  const computedStyle = window.getComputedStyle(logo);
 
-// Function to hide modal
-function hideModal() {
-  modal.style.display = 'none';
-  document.body.classList.remove('modal-open');
-}
+  const matrix = computedStyle.transform;
 
-// Event listeners for gallery links
-document.querySelectorAll('.galeriaFotos a').forEach((link, index) => {
-  link.addEventListener('click', (e) => {
-    e.preventDefault();
-    showModal(index);
+  logo.style.animation = 'none';
+
+  logo.style.transform = matrix;
+
+  requestAnimationFrame(() => {
+
+    requestAnimationFrame(() => {
+
+      logo.style.transition =
+        'transform 1.2s cubic-bezier(.22,.61,.36,1)';
+
+      logo.style.transform = 'rotate(0deg)';
+
+    });
+
   });
-});
 
-// Close modal
-closeBtn.addEventListener('click', hideModal);
+}
 
-// Click outside to close
-modal.addEventListener('click', (e) => {
-  if (e.target === modal) {
-    hideModal();
-  }
-});
+/* DESKTOP + MOBILE */
 
-// Previous image
-prevBtn.addEventListener('click', () => {
-  currentIndex = (currentIndex - 1 + images.length) % images.length;
-  modalImg.src = images[currentIndex];
-});
+logo.addEventListener('pointerenter', startSpin);
 
-// Next image
-nextBtn.addEventListener('click', () => {
-  currentIndex = (currentIndex + 1) % images.length;
-  modalImg.src = images[currentIndex];
-});
+logo.addEventListener('pointerleave', stopSpin);
 
-// Keyboard navigation
-document.addEventListener('keydown', (e) => {
-  if (modal.style.display === 'flex') {
-    if (e.key === 'ArrowLeft') {
-      prevBtn.click();
-    } else if (e.key === 'ArrowRight') {
-      nextBtn.click();
-    } else if (e.key === 'Escape') {
-      hideModal();
+logo.addEventListener('pointerdown', startSpin);
+
+logo.addEventListener('pointerup', stopSpin);
+
+logo.addEventListener('pointercancel', stopSpin);
+
+/* ---------------- MOBILE DROPDOWN ---------------- */
+
+dropdownButton.addEventListener('click', (e) => {
+
+  e.preventDefault();
+
+  if(window.innerWidth <= 768){
+
+    // si esta abierto -> cerrar
+    if(dropdown.classList.contains('open')){
+
+      dropdown.classList.remove('open');
+
     }
+
+    // si esta cerrado -> abrir
+    else{
+
+      dropdown.classList.add('open');
+
+    }
+
   }
+
+});
+
+/* cerrar tocando afuera */
+
+document.addEventListener('click', (e) => {
+
+  if(
+    window.innerWidth <= 768 &&
+    !dropdown.contains(e.target)
+  ){
+
+    dropdown.classList.remove('open');
+
+  }
+
 });
