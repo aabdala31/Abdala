@@ -42,6 +42,8 @@ body{
   position: relative;
   z-index: 2;
 
+  mix-blend-mode: difference;
+
   min-height: 100vh;
 
   display: flex;
@@ -219,17 +221,28 @@ ADAPTACION AL VIDEO
 
 @media (max-width: 768px){
 
+  html,
+  body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Raleway';
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+  } 
+
   .backgroundVideo{
     object-fit: cover;
   }
 
   .landingContainer{
+    mix-blend-mode: difference;
     padding: 1rem;
   }
 
   .logo{
     width: 72vw;
-    margin-top: 0;
     margin-bottom: 4rem;
     user-select: none;
     -webkit-user-drag: none;
