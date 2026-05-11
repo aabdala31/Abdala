@@ -110,6 +110,7 @@ body{
   justify-content: center;
 
   gap: 0;
+
 }
 
 .botonHeader+.botonHeader{
@@ -146,6 +147,9 @@ ADAPTACION AL VIDEO
 .botonHeader:hover,
 .dropdownContenido a:hover{
   opacity: 0.95;
+  text-decoration: underline;
+  transition: border-color 0.15s ease-in-out;
+  border-bottom: white !important; 
 }
 
 /* DROPDOWN */
@@ -225,6 +229,7 @@ ADAPTACION AL VIDEO
 
   .logo{
     width: 72vw;
+    margin-top: 0;
     margin-bottom: 4rem;
     user-select: none;
     -webkit-user-drag: none;
@@ -244,7 +249,6 @@ ADAPTACION AL VIDEO
 /* BOTONES */
 
 .barraBotones{
-
   margin-top: -4rem;
   display: flex;
   flex-direction: column;
@@ -326,7 +330,7 @@ CUANDO EL MENU ESTA ABIERTO
 */
 
 .dropdown.open{
-  padding-top: 3rem;
+  padding-top: -3rem;
   padding-bottom: 3rem;
 }
 
