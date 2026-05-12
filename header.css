@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Alte Haas Grotesk Regular';
+    src: url('AlteHaasGroteskRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alte Haas Grotesk Bold';
+    src: url('AlteHaasGroteskBold.ttf') format('truetype');
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -40,7 +50,7 @@ body.modal-open .headerContainer {
 
 #nombre > a {
 
-    font-family: "Raleway";
+    font-family: "Alte Haas Grotesk Regular";
 
     color: black;
 
@@ -74,7 +84,7 @@ body.modal-open .headerContainer {
     transition-duration: 0.15s;
     transition: border-color 0.15s ease-in-out;
 
-    font-family: "Raleway";
+    font-family: "Alte Haas Grotesk Bold";
 
     color: black;
 
@@ -233,7 +243,7 @@ body.modal-open .headerContainer {
     transition-duration: 0.15s;
     transition: border-color 0.15s ease-in-out;
 
-    font-family: "Raleway";
+    font-family: "Alte Haas Grotesk Regular";
 
     color: black;
 

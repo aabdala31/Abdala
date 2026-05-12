@@ -9,10 +9,20 @@ body{
   width: 100%;
   height: 100%;
   overflow: hidden;
-  font-family: 'Raleway';
+  font-family: 'Alte Haas Grotesk Regular';
   font-weight: bold;
   align-items: center;
   justify-content: center;
+}
+
+@font-face {
+    font-family: 'Alte Haas Grotesk Regular';
+    src: url('AlteHaasGroteskRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alte Haas Grotesk Bold';
+    src: url('AlteHaasGroteskBold.ttf') format('truetype');
 }
 
 /* VIDEO */
@@ -113,6 +123,13 @@ body{
 
   gap: 0;
 
+}
+
+.botonHeader{
+  position: relative;
+  color: white;
+  font-size: 2rem;
+  transition: color 0.3s ease;
 }
 
 .botonHeader+.botonHeader{
@@ -226,7 +243,7 @@ ADAPTACION AL VIDEO
     width: 100%;
     height: 100%;
     overflow: hidden;
-    font-family: 'Raleway';
+    font-family: 'Alte Haas Grotesk Regular';
     font-weight: bold;
     align-items: center;
     justify-content: center;
@@ -319,6 +336,11 @@ ADAPTACION AL VIDEO
 
   z-index: 100;
 }
+
+.dropdownContenido a{
+  font-size: 1.2rem;
+}
+
 /* OPEN */
 
 a+a{
