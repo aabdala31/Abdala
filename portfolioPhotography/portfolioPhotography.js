@@ -17,7 +17,7 @@ const nextBtn = modal.querySelector('.next');
 
 // Array of image sources
 const images = [];
-for (let i = 1; i <= 36; i++) {
+for (let i = 1; i <= 104; i++) {
   images.push(`img/img${i}.jpg`);
 }
 
