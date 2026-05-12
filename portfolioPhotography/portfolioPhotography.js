@@ -79,3 +79,10 @@ document.addEventListener('keydown', (e) => {
     }
   }
 });
+
+
+const galeria = document.querySelector('.galeriaFotos');
+
+[...galeria.children]
+  .reverse()
+  .forEach(item => galeria.appendChild(item));
