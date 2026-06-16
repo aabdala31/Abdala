@@ -1016,7 +1016,7 @@ const proyectos = [
       'polas'
     ],
     notas: '',
-    cover: 'media/sofia24/cover.jpg',
+    cover: 'media/sofia24/cover.JPG',
     media: [
       {
         tipo: 'imagen',
