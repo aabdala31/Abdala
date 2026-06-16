@@ -1113,7 +1113,79 @@ const proyectos = [
       {
         tipo: 'imagen',
         src: 'media/sanantoniodeareco24/2.jpg'
-      }
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/3.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/4.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/5.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/6.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/7.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/8.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/9.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/10.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/11.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/12.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/13.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/14.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/15.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/16.jpg'
+      },
+        {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/17.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/18.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/19.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/sanantoniodeareco24/20.jpg'
+      },
     ]
   },
 ];
