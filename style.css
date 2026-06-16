@@ -130,14 +130,13 @@ body{
   color: white;
   font-size: 2rem;
   transition: color 0.3s ease;
-}
 
-.botonHeader+.botonHeader{
-  margin-left: 5rem;
+  white-space: nowrap;
 }
 
 .dropdown+.botonHeader{
   margin-left: 4.1rem;
+  margin-right: 3.5rem;
 }
 
 /*
@@ -260,7 +259,6 @@ ADAPTACION AL VIDEO
 
   .logo{
     width: 72vw;
-    margin-bottom: 4rem;
     user-select: none;
     border: 2px solid transparent;
     -webkit-user-drag: none;
@@ -280,7 +278,6 @@ ADAPTACION AL VIDEO
 /* BOTONES */
 
 .barraBotones{
-  margin-top: -4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -310,18 +307,9 @@ ADAPTACION AL VIDEO
 
   position: absolute;
 
-  top: calc(100% + 1rem);
-  left: 50%;
-
-  transform:
-    translateX(-50%)
-    translateY(-10px);
-
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  margin-top: -4.5rem;
 
   opacity: 0;
 
@@ -335,10 +323,14 @@ ADAPTACION AL VIDEO
     visibility 0.3s ease;
 
   z-index: 100;
+  
+  padding: 0;
+  padding-top: -7rem;
 }
 
 .dropdownContenido a{
   font-size: 1.2rem;
+  
 }
 
 /* OPEN */
@@ -367,14 +359,12 @@ CUANDO EL MENU ESTA ABIERTO
 
 .dropdown.open{
   padding-top: -3rem;
-  padding-bottom: 3rem;
+  margin-bottom: 7.5rem;
 }
 
 /* BOTONES VERTICALES MOBILE */
 
 .barraBotones{
-  padding-top: 1rem;
-  gap: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -385,6 +375,10 @@ CUANDO EL MENU ESTA ABIERTO
 .botonHeader + .botonHeader,
 .dropdown + .botonHeader{
   margin-left: 0;
+}
+
+.landingContainer{
+  padding-bottom: 3rem;
 }
 
 @media (max-width: 768px){
