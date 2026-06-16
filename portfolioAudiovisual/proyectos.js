@@ -6,7 +6,7 @@ const proyectos = [
       'pasante de produccion'
     ],
     notas: 'proyecto de Netflix dirigido por Marcos Carnevale',
-    cover: 'media/img/goyo/cover.jpg',
+    cover: 'media/img/goyo/cover.JPG',
     media: [
       {
         tipo: 'imagen',
@@ -14,7 +14,7 @@ const proyectos = [
       },
       {
         tipo: 'imagen',
-        src: 'media/img/goyo/2.jpg'
+        src: 'media/img/goyo/2.JPG'
       },
       {
         tipo: 'youtube',
