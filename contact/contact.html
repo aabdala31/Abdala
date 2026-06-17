@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agustin Abdala</title>
+
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="../header.css">
+  <link rel="stylesheet" href="../loader/loader.css">
+  <link rel="shortcut icon" href="../icon.png">
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+  <div id="loader"> 
+    <div class="loaderInner"> 
+      <h1>agustin abdala</h1> 
+      <div class="loaderBar"> 
+        <div class="loaderProgress">
+
+        </div> 
+      </div> 
+    </div> 
+  </div>
+    
+    <header>
+      <section class="headerContainer">
+          <div id="nombre">
+            <a href="../index.html">agustin abdala </a>
+          </div>    
+        <section class="barraBotones">
+            <div class="dropdown">
+                <a href="#" class="botonHeader">portfolio</a>
+
+                <div class="dropdownContenido">
+                <a href="../portfolioAudiovisual/portfolioAudiovisual.html">audiovisual</a>
+                <a href="../portfolioPhotography/portfolioPhotography.html">fotografía</a>
+                <a href="../fotogaleriaAnalogica/fotogaleriaAnalogica.html">fotogalería analogica</a>
+                </div>
+            </div>
+
+            <a href="../aboutMe/aboutMe.html" class="botonHeader">sobre mí</a>
+
+            <a href="../contact/contact.html" class="botonHeader">contacto</a>
+
+        </section>
+      </section>
+    </header>
+
+    <main>
+      <section class="contactSection">
+        <h2>estemos en contacto :)</h2>
+        <form class="contactForm" id="contactForm" method="post" action="https://api.web3forms.com/submit">
+          <input type="hidden" name="access_key" value="af3e8e28-dc0a-42cf-a444-8d9f3344a862">
+          
+          <label for="name">nombre</label>
+          <input type="text" class="formInput" id="name" name="name" placeholder="tu nombre" required>
+
+          <label for="email">e-mail</label>
+          <input type="email" class="formInput" id="email" name="email" placeholder="tu@correo.com" required>
+
+          <label for="message">mensaje</label>
+          <textarea class="formInput" id="message" name="message" placeholder="escribí aca tu mensaje/propuesta" required></textarea>
+        
+          <button type="submit">enviar</button>
+          <p id="formStatus"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="../loader/loader.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
