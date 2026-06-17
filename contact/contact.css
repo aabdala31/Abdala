@@ -21,14 +21,19 @@ body{
   font-family: 'Alte Haas Grotesk Regular', sans-serif;
 }
 
-main{
+section.contact{
     padding: 5rem;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: top;
+    justify-content: center;
 }
 
 .contactSection{
-    gap: 2rem;
-    display: flex;
+    margin: 0;
+    padding: 0;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
@@ -40,7 +45,7 @@ main{
     flex-direction: column;
 }
 
-.contactSection h2{
+h2{
     font-size: 2.5rem;
 }
 
@@ -84,12 +89,32 @@ button{
     color: #cc0000;
 }
 
-@media (max-width: 768px) {
-    main{
-        padding: 2rem;
-    }
+.socialsContainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.socialIcon{
+    width: 5rem;
+    height: 5rem;
+    text-decoration: none;
+    color: black;
+}
+.socialLinks{
+    text-decoration: none;
+    width: 0;
+}
 
-    .contactSection h2{
+@media (max-width: 768px) {
+    section.contact{
+        padding: 0 1rem;
+        flex-direction: column;
+        height: auto;
+        gap: 3rem;
+    }   
+
+    h2{
         font-size: 2rem;
     }
 
