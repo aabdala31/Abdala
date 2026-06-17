@@ -51,23 +51,11 @@
     </header>
 
     <section class="contact">
-      <section class="socialsSection">
-        <h2>redes sociales</h2>
-        <div class="socialsContainer">
-          <a href="https://www.instagram.com/agusabdala_/" target="_blank" class="socialLink">
-            <ion-icon name="logo-instagram" class="socialIcon" href="https://www.instagram.com/agusabdala_/"></ion-icon>
-          </a>
-          <a href="https://www.linkedin.com/in/agustin-abdala-9b1b6b1b4/" target="_blank" class="socialLink">
-            <ion-icon name="logo-linkedin" class="socialIcon"></ion-icon>
-          </a>
-          <a href="https://www.behance.net/agustinabdala" target="_blank" class="socialLink">
-            <ion-icon name="logo-behance" class="socialIcon"></ion-icon>
-          </a>
-        </div>
-      </section>
-
       <section class="contactSection">
-        <h2>estemos en contacto :)</h2>
+        <div class="wrapper">
+          <span id="contactText" class="cursor"></span>
+        </div>
+      
         <form class="contactForm" id="contactForm" method="post" action="https://api.web3forms.com/submit">
           <input type="hidden" name="access_key" value="af3e8e28-dc0a-42cf-a444-8d9f3344a862">
           
@@ -84,6 +72,25 @@
           <p id="formStatus"></p>
         </form>
       </section>
+
+      <section class="socialsSection">
+        <div class="wrapper">
+          <span id="socialText" class="cursor"></span>
+        </div>
+
+        <div class="socialsContainer">
+          <a href="https://www.instagram.com/agusabdala_/" target="_blank" class="socialLink">
+            <ion-icon name="logo-instagram" class="socialIcon" href="https://www.instagram.com/agusabdala_/"></ion-icon>
+          </a>
+          <a href="https://www.linkedin.com/in/agustin-abdala-9b1b6b1b4/" target="_blank" class="socialLink">
+            <ion-icon name="logo-linkedin" class="socialIcon"></ion-icon>
+          </a>
+          <a href="https://www.behance.net/agustinabdala" target="_blank" class="socialLink">
+            <ion-icon name="logo-behance" class="socialIcon"></ion-icon>
+          </a>
+        </div>
+      </section>
+
     </section>
 
     <script src="../loader/loader.js"></script>

@@ -21,6 +21,29 @@ body{
   font-family: 'Alte Haas Grotesk Regular', sans-serif;
 }
 
+
+.wrapper{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    width: 21ch;
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.cursor{
+    border-right: 2px solid black;
+    animation: blink .8s infinite;
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
+
 section.contact{
     padding: 5rem;
     height: 100vh;
@@ -45,9 +68,6 @@ section.contact{
     flex-direction: column;
 }
 
-h2{
-    font-size: 2.5rem;
-}
 
 .formInput{
     padding: 0.5rem;
@@ -72,6 +92,9 @@ button{
     font-size: 1rem;
     width: 25rem;
     cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 0.3rem;
 }
 
 #formStatus{
@@ -91,7 +114,7 @@ button{
 
 .socialsContainer{
     display: flex;
-    justify-content: center;
+
     gap: 1rem;
     margin-top: 1rem;
 }
@@ -109,16 +132,38 @@ button{
 @media (max-width: 768px) {
     section.contact{
         padding: 0 1rem;
-        flex-direction: column;
+        flex-direction: column-reverse;
         height: auto;
-        gap: 3rem;
-    }   
+        gap: 1rem;
+    }  
 
-    h2{
-        font-size: 2rem;
+    .wrapper{
+        font-size: 1.8rem;
     }
 
-    .contactSection {
+    .contactSection .contactForm{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .socialsSection .socialsContainer{
         width: 100%;
     }
+
+    label{
+        font-size: 1.2rem;
+    }
+
+    .formInput{
+        width: 22.5rem;
+    }
+
+    .formInput{
+        width: 22.5rem;
+    }
+
+    button{
+        width: 22.5rem;
+    }
+
 }
