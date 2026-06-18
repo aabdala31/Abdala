@@ -1,4 +1,90 @@
 const proyectos = [
+    {
+    titulo: 'Las cosas que no nos dijimos',
+    anio: '2024',
+    roles: [
+      'director',
+      'escritor'
+    ],
+    notas: 'corto universitario',
+    cover: 'media/img/lascosasquenonosdijimos/cover.jpg',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/img/lascosasquenonosdijimos/1.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/lascosasquenonosdijimos/2.jpg'
+      },
+      {
+        tipo: 'youtube',
+        src: 'https://www.youtube.com/embed/wQrfCYHueDM?si=Zx6asBtWaRe9onuy'
+      }
+    ]
+  },
+
+  {
+    titulo: 'Entre Nosotras',
+    anio: '2026',
+    roles: [
+      'director',
+      'escritor'
+    ],
+    notas: 'cortometraje universitario',
+    cover: 'media/img/entrenosotras/cover.jpg',
+    media: [     
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/1.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/2.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/3.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/4.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/5.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/6.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/7.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/8.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/9.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/10.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/11.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrenosotras/12.jpg'
+      },
+    ]
+  },
+
   {
     titulo: 'Goyo',
     anio: '2024',
@@ -130,59 +216,6 @@ const proyectos = [
   },
 
   {
-    titulo: 'Las cosas que no nos dijimos',
-    anio: '2024',
-    roles: [
-      'escritor',
-      'director'
-    ],
-    notas: 'corto universitario',
-    cover: 'media/img/lascosasquenonosdijimos/cover.jpg',
-    media: [
-      {
-        tipo: 'imagen',
-        src: 'media/img/lascosasquenonosdijimos/1.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/lascosasquenonosdijimos/2.jpg'
-      },
-      {
-        tipo: 'youtube',
-        src: 'https://www.youtube.com/embed/wQrfCYHueDM?si=Zx6asBtWaRe9onuy'
-      }
-    ]
-  },
-
-  {
-    titulo: 'Entre peluches',
-    anio: '2024',
-    roles: [
-      'director de arte'
-    ],
-    notas: 'corto universitario',
-    cover: 'media/img/entrepeluches/cover.jpg',
-    media: [
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrepeluches/1.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrepeluches/2.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrepeluches/3.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrepeluches/4.jpg'
-      },
-    ]
-  },
-
-  {
     titulo: '2009',
     anio: '2024',
     roles: [
@@ -245,6 +278,162 @@ const proyectos = [
         tipo: 'youtube',
         src: 'https://www.youtube.com/embed/esSiz-_2Nxc?si=lGZjqaoaOeq71n3h'
       }
+    ]
+  },
+
+  {
+    titulo: 'AUSENTES',
+    anio: '2025',
+    roles: [
+      'director de fotografia'
+    ],
+    notas: 'cortometraje universitario',
+    cover: 'media/img/ausentes/cover.jpg',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/img/ausentes/1.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ausentes/2.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ausentes/3.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ausentes/4.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ausentes/5.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ausentes/6.jpg'
+      }
+    ]
+  },
+
+  {
+    titulo: 'ECOS',
+    anio: '2026',
+    roles: [
+      'director de fotografia'
+    ],
+    notas: 'cortometraje universitario',
+    cover: 'media/img/ecos/cover.jpg',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/img/ecos/1.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ecos/2.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ecos/3.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ecos/4.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ecos/5.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ecos/6.jpg'
+      }
+    ]
+  },
+
+  {
+    titulo: 'LABORATORIOS',
+    anio: '2026',
+    roles: [
+      'director de fotografia'
+    ],
+    notas: 'cortometraje independiente',
+    cover: 'media/img/laboratorios/cover.jpg',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/img/laboratorios/1.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/laboratorios/2.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/laboratorios/3.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/laboratorios/4.jpg'
+      },
+    ]
+  },
+
+  {
+    titulo: 'Oídos sordos',
+    anio: '2024',
+    roles: [
+      'director de fotografia'
+    ],
+    notas: 'corto universitario',
+    cover: 'media/img/oidossordos/cover.jpg',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/img/oidossordos/1.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/oidossordos/2.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/oidossordos/3.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/oidossordos/4.jpg'
+      }
+    ]
+  },
+
+  {
+    titulo: 'Entre peluches',
+    anio: '2024',
+    roles: [
+      'director de arte'
+    ],
+    notas: 'corto universitario',
+    cover: 'media/img/entrepeluches/cover.jpg',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrepeluches/1.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrepeluches/2.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrepeluches/3.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/entrepeluches/4.jpg'
+      },
     ]
   },
 
@@ -466,195 +655,6 @@ const proyectos = [
       {
         tipo: 'imagen',
         src: 'media/img/puntoderocio/4.jpg'
-      }
-    ]
-  },
-
-  {
-    titulo: 'AUSENTES',
-    anio: '2025',
-    roles: [
-      'director de fotografia'
-    ],
-    notas: 'cortometraje universitario',
-    cover: 'media/img/ausentes/cover.jpg',
-    media: [
-      {
-        tipo: 'imagen',
-        src: 'media/img/ausentes/1.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/ausentes/2.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/ausentes/3.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/ausentes/4.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/ausentes/5.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/ausentes/6.jpg'
-      }
-    ]
-  },
-
-  {
-    titulo: 'ECOS',
-    anio: '2026',
-    roles: [
-      'director de fotografia'
-    ],
-    notas: 'cortometraje universitario',
-    cover: 'media/img/ecos/cover.jpg',
-    media: [
-      {
-        tipo: 'imagen',
-        src: 'media/img/ecos/1.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/ecos/2.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/ecos/3.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/ecos/4.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/ecos/5.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/ecos/6.jpg'
-      }
-    ]
-  },
-
-  {
-    titulo: 'Entre Nosotras',
-    anio: '2026',
-    roles: [
-      'escritor',
-      'director'
-    ],
-    notas: 'cortometraje universitario',
-    cover: 'media/img/entrenosotras/cover.jpg',
-    media: [     
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/1.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/2.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/3.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/4.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/5.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/6.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/7.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/8.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/9.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/10.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/11.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/entrenosotras/12.jpg'
-      },
-    ]
-  },
-
-  {
-    titulo: 'LABORATORIOS',
-    anio: '2026',
-    roles: [
-      'director de fotografia'
-    ],
-    notas: 'cortometraje independiente',
-    cover: 'media/img/laboratorios/cover.jpg',
-    media: [
-      {
-        tipo: 'imagen',
-        src: 'media/img/laboratorios/1.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/laboratorios/2.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/laboratorios/3.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/laboratorios/4.jpg'
-      },
-    ]
-  },
-
-  {
-    titulo: 'Oídos sordos',
-    anio: '2024',
-    roles: [
-      'director de fotografia'
-    ],
-    notas: 'corto universitario',
-    cover: 'media/img/oidossordos/cover.jpg',
-    media: [
-      {
-        tipo: 'imagen',
-        src: 'media/img/oidossordos/1.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/oidossordos/2.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/oidossordos/3.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/oidossordos/4.jpg'
       }
     ]
   },

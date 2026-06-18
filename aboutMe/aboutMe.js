@@ -294,47 +294,77 @@ update();
 
 const track = document.querySelector('.carouselTrack');
 
+const originalCards = [...document.querySelectorAll('.movieCard')];
+
+const cardsPerView = window.innerWidth <= 768 ? 1 : 2;
+
+// clones
+const firstClones = originalCards
+  .slice(0, cardsPerView)
+  .map(card => card.cloneNode(true));
+
+const lastClones = originalCards
+  .slice(-cardsPerView)
+  .map(card => card.cloneNode(true));
+
+// agregarlos
+lastClones.forEach(clone => {
+  track.insertBefore(clone, track.firstChild);
+});
+
+firstClones.forEach(clone => {
+  track.appendChild(clone);
+});
+
 const cards = document.querySelectorAll('.movieCard');
 
-let currentIndex = 0;
+let currentIndex = cardsPerView;
 
-function getCardsPerView(){
+function updateCarousel(animated = true) {
 
-    return window.innerWidth <= 768 ? 1 : 2;
+  const cardWidth = cards[0].offsetWidth + 16;
+
+  track.style.transition = animated
+    ? 'transform .5s ease'
+    : 'none';
+
+  track.style.transform =
+    `translateX(-${currentIndex * cardWidth}px)`;
 }
 
-function updateCarousel(){
+// posición inicial
+updateCarousel(false);
 
-    const cardWidth = cards[0].offsetWidth + 16;
+function autoSlide() {
 
-    track.style.transform =
-        `translateX(-${currentIndex * cardWidth}px)`;
+  currentIndex++;
+
+  updateCarousel(true);
 }
 
-// ================= AUTO LOOP =================
+track.addEventListener('transitionend', () => {
 
-function autoSlide(){
+  // llegó al clon del principio
+  if (currentIndex >= originalCards.length + cardsPerView) {
 
-    const cardsPerView = getCardsPerView();
+    currentIndex = cardsPerView;
 
-    currentIndex++;
+    updateCarousel(false);
+  }
 
-    // loop infinito
-    if(currentIndex > cards.length - cardsPerView){
+  // llegó al clon del final
+  if (currentIndex < cardsPerView) {
 
-        currentIndex = 0;
-    }
+    currentIndex = originalCards.length + currentIndex;
 
-    updateCarousel();
-}
+    updateCarousel(false);
+  }
+});
 
-// cada 3 segundos
 setInterval(autoSlide, 3000);
 
-// resize
-window.addEventListener('resize', updateCarousel);
-
-// init
-updateCarousel();
+window.addEventListener('resize', () => {
+  updateCarousel(false);
+});
 
 

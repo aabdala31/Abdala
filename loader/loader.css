@@ -49,30 +49,6 @@
 
 }
 
-/* ---------------- ICON ---------------- */
-
-.loaderIcon{
-
-    width: 35vh;
-
-    height: 35vh;
-
-    object-fit: contain;
-
-    animation: rotateIcon 8s linear infinite;
-}
-
-@keyframes rotateIcon{ 
-
-  from{ 
-    transform: rotate(0deg); 
-  } 
-
-  to{ 
-    transform: rotate(360deg); 
-  } 
-}
-
 /* ---------------- BAR ---------------- */
 
 .loaderBar{
