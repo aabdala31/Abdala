@@ -393,7 +393,7 @@ const proyectos = [
     ]
   },
 
-  // POLAS / PRESSKIT
+  // POLAS / photoshoot
 
   {
     titulo: "marta '26",
@@ -439,7 +439,7 @@ const proyectos = [
     titulo: 'flapper',
     anio: '2025',
     roles: [
-      'presskit'
+      'photoshoot'
     ],
     notas: '',
     cover: 'media/flapper/cover.jpg',
@@ -468,7 +468,7 @@ const proyectos = [
     titulo: "koven '25",
     anio: '2025',
     roles: [
-      'presskit'
+      'photoshoot'
     ],
     notas: '',
     cover: 'media/koven25/cover.jpg',
@@ -871,7 +871,31 @@ const proyectos = [
       {
         tipo: 'imagen',
         src: 'media/dottopaotrahistoria/2.jpg'
-      }
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/dottopaotrahistoria/3.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/dottopaotrahistoria/4.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/dottopaotrahistoria/5.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/dottopaotrahistoria/6.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/dottopaotrahistoria/7.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/dottopaotrahistoria/8.jpg'
+      },
     ]
   },
 
@@ -1013,7 +1037,7 @@ const proyectos = [
     titulo: "sofia '24",
     anio: '2024',
     roles: [
-      'polas'
+      'photoshoot'
     ],
     notas: '',
     cover: 'media/sofia24/cover.JPG',
@@ -1188,6 +1212,133 @@ const proyectos = [
       },
     ]
   },
+
+  {
+    titulo: "flyers varios",
+    anio: '2022-2026',
+    roles: [
+      'diseño gráfico'
+    ],
+    notas: '',
+    cover: 'media/flyersvarios/cover.jpg',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/flyersvarios/1.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/flyersvarios/2.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/flyersvarios/3.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/flyersvarios/4.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/flyersvarios/5.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/flyersvarios/6.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/flyersvarios/7.jpg'
+      }
+    ]
+  },
+
+  {
+    titulo: "SCORPIO ZINE",
+    anio: '2025',
+    roles: [
+      'diseño gráfico'
+    ],
+    notas: '',
+    cover: 'media/scorpiozine/cover.jpg',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/scorpiozine/1.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/scorpiozine/2.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/scorpiozine/3.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/scorpiozine/4.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/scorpiozine/5.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/scorpiozine/6.jpg'
+      }
+    ]
+  },
+
+  {
+    titulo: "ojitos",
+    anio: '2024',
+    roles: [
+      'diseño gráfico'
+    ],
+    notas: '',
+    cover: 'media/ojitos/cover.jpg',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/1.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/2.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/3.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/4.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/5.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/6.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/7.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/8.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/9.jpg'
+      }
+    ]
+  },
+
+  
+
 ];
 
 

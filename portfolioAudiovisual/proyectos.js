@@ -313,6 +313,14 @@ const proyectos = [
       {
         tipo: 'imagen',
         src: 'media/img/ausentes/6.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ausentes/7.jpg'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ausentes/8.jpg'
       }
     ]
   },
@@ -470,7 +478,7 @@ const proyectos = [
   },
 
   {
-    titulo: 'UNRATITOMAS',
+    titulo: 'UNR4TITOMAS',
     anio: '2025',
     roles: [
       'electrico'
@@ -632,7 +640,7 @@ const proyectos = [
   },
 
   {
-    titulo: 'Punto de rocio',
+    titulo: 'Punto de rocío',
     anio: '2025',
     roles: [
       'gaffer'

@@ -26,7 +26,7 @@ body{
     font-size: 2.5rem;
     font-weight: bold;
 
-    width: 21ch;
+    width: 22ch;
     min-height: 5rem;
     display: flex;
     align-items: center;
@@ -45,11 +45,11 @@ body{
 }
 
 section.contact{
-    padding: 5rem;
+    padding: 2rem 5rem;
     height: 100vh;
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 2rem;
     align-items: top;
     justify-content: center;
 }
@@ -94,6 +94,7 @@ button{
     cursor: pointer;
     background-color: black;
     color: white;
+    border: none;
     border-radius: 0.3rem;
 }
 
