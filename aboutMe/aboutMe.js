@@ -44,6 +44,11 @@ const imagePools = {
   random2: [
     "img/random/random3.png",
     "img/random/random4.png"
+  ],
+
+  random3: [
+    "img/random/random5.png",
+    "img/random/random6.png"
   ]
 };
 
@@ -86,6 +91,11 @@ const sizes = {
   },
 
   random2: {
+    w: mobile ? 140 : 300,
+    h: mobile ? 140 : 300
+  },
+
+  random3: {
     w: mobile ? 140 : 300,
     h: mobile ? 140 : 300
   }
@@ -138,7 +148,10 @@ photos.forEach((photo) => {
     lastY: 0,
 
     width: size.w,
-    height: size.h
+    height: size.h,
+
+    angle: Math.random() * Math.PI * 2,
+    turnSpeed: (Math.random() - 0.5) * 0.002
   };
 
   photo.style.left = `${obj.x}px`;
@@ -196,6 +209,15 @@ photos.forEach((photo) => {
 
         active.dragging = false;
 
+        active.vx += (Math.random() - 0.5) * 1.2;
+        active.vy += (Math.random() - 0.5) * 1.2;
+
+        active.vx *= 0.8;
+        active.vy *= 0.8;
+
+        active.vx += (Math.random() - 0.5) * 1.5;
+        active.vy += (Math.random() - 0.5) * 1.5;
+
         active = null;
 
         try{
@@ -244,6 +266,23 @@ function update() {
 
     if (!obj.dragging) {
 
+      // curvatura suave
+
+      obj.angle += obj.turnSpeed;
+
+      const speed = Math.hypot(obj.vx, obj.vy);
+
+      if (speed > 0.1) {
+
+        const dirX = obj.vx / speed;
+        const dirY = obj.vy / speed;
+
+        const curve = 0.01;
+
+        obj.vx += (-dirY) * curve;
+        obj.vy += ( dirX) * curve;
+      }
+
       obj.x += obj.vx;
       obj.y += obj.vy;
 
@@ -275,7 +314,7 @@ function update() {
         obj.vy *= -1;
       }
 
-      // friction
+      // fricción
 
       obj.vx *= 0.999;
       obj.vy *= 0.999;
