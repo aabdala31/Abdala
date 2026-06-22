@@ -17,7 +17,7 @@
 html,
 body{
   width: 100%;
-  min-height: 100vh;
+  height: auto;
   font-family: 'Alte Haas Grotesk Regular', sans-serif;
 }
 
@@ -46,7 +46,7 @@ body{
 
 section.contact{
     padding: 2rem 5rem;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     gap: 2rem;

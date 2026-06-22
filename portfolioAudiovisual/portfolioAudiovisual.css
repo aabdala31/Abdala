@@ -284,7 +284,10 @@ img{
 /* MOBILE */
 
 @media (max-width: 1200px){
-
+  html,
+  body{
+  font-family: 'Alte Haas Grotesk Regular', sans-serif;
+  }
   .gridProyectos{
     grid-template-columns: repeat(3, 1fr);
   }
@@ -308,6 +311,10 @@ img{
 }
 
 @media (max-width: 768px){
+
+  h1{
+  font-family: 'Alte Haas Grotesk Regular', sans-serif;
+  }
 
   header{
     padding-top: 2rem;

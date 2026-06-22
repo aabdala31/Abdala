@@ -173,7 +173,7 @@ function actualizarModal(){
   if(media.tipo === 'imagen'){
 
     modalMedia.innerHTML = `
-      <img src="${media.src}" alt="">
+      <img src="${media.src}" alt="" loading="lazy">
     `;
   }
 

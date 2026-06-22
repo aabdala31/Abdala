@@ -7,15 +7,15 @@ const proyectos = [
       'escritor'
     ],
     notas: 'corto universitario',
-    cover: 'media/img/lascosasquenonosdijimos/cover.jpg',
+    cover: 'media/img/lascosasquenonosdijimos/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/lascosasquenonosdijimos/1.jpg'
+        src: 'media/img/lascosasquenonosdijimos/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/lascosasquenonosdijimos/2.jpg'
+        src: 'media/img/lascosasquenonosdijimos/2.webp'
       },
       {
         tipo: 'youtube',
@@ -32,55 +32,55 @@ const proyectos = [
       'escritor'
     ],
     notas: 'cortometraje universitario',
-    cover: 'media/img/entrenosotras/cover.jpg',
+    cover: 'media/img/entrenosotras/cover.webp',
     media: [     
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/1.jpg'
+        src: 'media/img/entrenosotras/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/2.jpg'
+        src: 'media/img/entrenosotras/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/3.jpg'
+        src: 'media/img/entrenosotras/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/4.jpg'
+        src: 'media/img/entrenosotras/4.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/5.jpg'
+        src: 'media/img/entrenosotras/5.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/6.jpg'
+        src: 'media/img/entrenosotras/6.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/7.jpg'
+        src: 'media/img/entrenosotras/7.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/8.jpg'
+        src: 'media/img/entrenosotras/8.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/9.jpg'
+        src: 'media/img/entrenosotras/9.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/10.jpg'
+        src: 'media/img/entrenosotras/10.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/11.jpg'
+        src: 'media/img/entrenosotras/11.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrenosotras/12.jpg'
+        src: 'media/img/entrenosotras/12.webp'
       },
     ]
   },
@@ -92,15 +92,19 @@ const proyectos = [
       'pasante de produccion'
     ],
     notas: 'proyecto de Netflix dirigido por Marcos Carnevale',
-    cover: 'media/img/goyo/cover.JPG',
+    cover: 'media/img/goyo/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/goyo/1.jpg'
+        src: 'media/img/goyo/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/goyo/2.JPG'
+        src: 'media/img/goyo/3.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/goyo/4.webp'
       },
       {
         tipo: 'youtube',
@@ -116,55 +120,19 @@ const proyectos = [
       'pasante de produccion'
     ],
     notas: 'proyecto de Amazon dirigido por Gabriel Nesci',
-    cover: 'media/img/meub/cover.jpg',
+    cover: 'media/img/meub/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/meub/1.jpg'
+        src: 'media/img/meub/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/meub/2.jpg'
+        src: 'media/img/meub/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/meub/3.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/meub/4.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/meub/5.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/meub/6.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/meub/7.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/meub/8.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/meub/9.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/meub/10.jpg'
-      },
-            {
-        tipo: 'imagen',
-        src: 'media/img/meub/11.jpg'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/meub/12.jpg'
+        src: 'media/img/meub/3.webp'
       },
       {
         tipo: 'youtube',
@@ -181,7 +149,7 @@ const proyectos = [
       'editor'
     ],
     notas: 'proyecto experimental',
-    cover: 'media/img/anamorfosis/cover.jpg',
+    cover: 'media/img/anamorfosis/cover.webp',
     media: [
       {
         tipo: 'youtube',
@@ -198,15 +166,23 @@ const proyectos = [
       'editor'
     ],
     notas: 'proyecto experimental',
-    cover: 'media/img/onirico/cover.jpg',
+    cover: 'media/img/onirico/cover.webp',
     media: [
        {
         tipo: 'imagen',
-        src: 'media/img/onirico/1.jpg'
+        src: 'media/img/onirico/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/onirico/2.jpg'
+        src: 'media/img/onirico/2.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/onirico/3.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/onirico/4.webp'
       },
       {
         tipo: 'youtube',
@@ -224,55 +200,55 @@ const proyectos = [
       'colorista'
     ],
     notas: 'videoclip',
-    cover: 'media/img/2009/cover.png',
+    cover: 'media/img/2009/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/2009/1.png'
+        src: 'media/img/2009/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/2009/2.png'
+        src: 'media/img/2009/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/2009/3.png'
+        src: 'media/img/2009/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/2009/4.png'
+        src: 'media/img/2009/4.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/2009/5.png'
+        src: 'media/img/2009/5.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/2009/6.png'
+        src: 'media/img/2009/6.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/2009/7.png'
+        src: 'media/img/2009/7.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/2009/8.png'
+        src: 'media/img/2009/8.webp'
       },
             {
         tipo: 'imagen',
-        src: 'media/img/2009/9.png'
+        src: 'media/img/2009/9.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/2009/10.png'
+        src: 'media/img/2009/10.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/2009/11.png'
+        src: 'media/img/2009/11.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/2009/12.png'
+        src: 'media/img/2009/12.webp'
       },
       {
         tipo: 'youtube',
@@ -288,39 +264,39 @@ const proyectos = [
       'director de fotografia'
     ],
     notas: 'cortometraje universitario',
-    cover: 'media/img/ausentes/cover.jpg',
+    cover: 'media/img/ausentes/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/ausentes/1.jpg'
+        src: 'media/img/ausentes/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ausentes/2.jpg'
+        src: 'media/img/ausentes/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ausentes/3.jpg'
+        src: 'media/img/ausentes/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ausentes/4.jpg'
+        src: 'media/img/ausentes/4.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ausentes/5.jpg'
+        src: 'media/img/ausentes/5.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ausentes/6.jpg'
+        src: 'media/img/ausentes/6.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ausentes/7.jpg'
+        src: 'media/img/ausentes/7.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ausentes/8.jpg'
+        src: 'media/img/ausentes/8.webp'
       }
     ]
   },
@@ -332,31 +308,31 @@ const proyectos = [
       'director de fotografia'
     ],
     notas: 'cortometraje universitario',
-    cover: 'media/img/ecos/cover.jpg',
+    cover: 'media/img/ecos/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/ecos/1.jpg'
+        src: 'media/img/ecos/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ecos/2.jpg'
+        src: 'media/img/ecos/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ecos/3.jpg'
+        src: 'media/img/ecos/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ecos/4.jpg'
+        src: 'media/img/ecos/4.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ecos/5.jpg'
+        src: 'media/img/ecos/5.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/ecos/6.jpg'
+        src: 'media/img/ecos/6.webp'
       }
     ]
   },
@@ -368,23 +344,23 @@ const proyectos = [
       'director de fotografia'
     ],
     notas: 'cortometraje independiente',
-    cover: 'media/img/laboratorios/cover.jpg',
+    cover: 'media/img/laboratorios/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/laboratorios/1.jpg'
+        src: 'media/img/laboratorios/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/laboratorios/2.jpg'
+        src: 'media/img/laboratorios/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/laboratorios/3.jpg'
+        src: 'media/img/laboratorios/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/laboratorios/4.jpg'
+        src: 'media/img/laboratorios/4.webp'
       },
     ]
   },
@@ -396,23 +372,23 @@ const proyectos = [
       'director de fotografia'
     ],
     notas: 'corto universitario',
-    cover: 'media/img/oidossordos/cover.jpg',
+    cover: 'media/img/oidossordos/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/oidossordos/1.jpg'
+        src: 'media/img/oidossordos/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/oidossordos/2.jpg'
+        src: 'media/img/oidossordos/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/oidossordos/3.jpg'
+        src: 'media/img/oidossordos/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/oidossordos/4.jpg'
+        src: 'media/img/oidossordos/4.webp'
       }
     ]
   },
@@ -424,23 +400,23 @@ const proyectos = [
       'director de arte'
     ],
     notas: 'corto universitario',
-    cover: 'media/img/entrepeluches/cover.jpg',
+    cover: 'media/img/entrepeluches/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/entrepeluches/1.jpg'
+        src: 'media/img/entrepeluches/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrepeluches/2.jpg'
+        src: 'media/img/entrepeluches/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrepeluches/3.jpg'
+        src: 'media/img/entrepeluches/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/entrepeluches/4.jpg'
+        src: 'media/img/entrepeluches/4.webp'
       },
     ]
   },
@@ -452,23 +428,23 @@ const proyectos = [
       'asistente de arte'
     ],
     notas: 'tres videoclips',
-    cover: 'media/img/schiavo/cover.png',
+    cover: 'media/img/schiavo/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/schiavo/1.png'
+        src: 'media/img/schiavo/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/schiavo/2.png'
+        src: 'media/img/schiavo/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/schiavo/4.png'
+        src: 'media/img/schiavo/4.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/schiavo/3.png'
+        src: 'media/img/schiavo/3.webp'
       },
       {
         tipo: 'youtube',
@@ -484,35 +460,35 @@ const proyectos = [
       'electrico'
     ],
     notas: 'seven kayne, videoclip',
-    cover: 'media/img/unratitomas/cover.jpg',
+    cover: 'media/img/unratitomas/cover.webp',
     media: [
             {
         tipo: 'imagen',
-        src: 'media/img/unratitomas/1.jpg'
+        src: 'media/img/unratitomas/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/unratitomas/2.jpg'
+        src: 'media/img/unratitomas/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/unratitomas/3.jpg'
+        src: 'media/img/unratitomas/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/unratitomas/4.jpg'
+        src: 'media/img/unratitomas/4.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/unratitomas/5.jpg'
+        src: 'media/img/unratitomas/5.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/unratitomas/6.jpg'
+        src: 'media/img/unratitomas/6.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/unratitomas/7.jpg'
+        src: 'media/img/unratitomas/7.webp'
       },
       {
         tipo: 'youtube',
@@ -528,23 +504,23 @@ const proyectos = [
       'electrico'
     ],
     notas: 'corto universitario, 7SIFF',
-    cover: 'media/img/eltiro/cover.jpg',
+    cover: 'media/img/eltiro/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/eltiro/1.jpg'
+        src: 'media/img/eltiro/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/eltiro/2.jpg'
+        src: 'media/img/eltiro/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/eltiro/4.jpg'
+        src: 'media/img/eltiro/4.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/eltiro/3.jpg'
+        src: 'media/img/eltiro/3.webp'
       },
     ]
   },
@@ -557,27 +533,27 @@ const proyectos = [
       '2AC'
     ],
     notas: 'corto universitario, Festival Rojo Sangre',
-    cover: 'media/img/latex/cover.jpg',
+    cover: 'media/img/latex/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/latex/1.jpg'
+        src: 'media/img/latex/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/latex/2.jpg'
+        src: 'media/img/latex/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/latex/4.jpg'
+        src: 'media/img/latex/4.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/latex/3.jpg'
+        src: 'media/img/latex/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/latex/5.jpg'
+        src: 'media/img/latex/5.webp'
       }
     ]
   },
@@ -590,51 +566,51 @@ const proyectos = [
       '2AC'
     ],
     notas: 'cortometraje universitario',
-    cover: 'media/img/dereves/cover.png',
+    cover: 'media/img/dereves/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/dereves/1.png'
+        src: 'media/img/dereves/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/dereves/2.png'
+        src: 'media/img/dereves/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/dereves/3.png'
+        src: 'media/img/dereves/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/dereves/4.png'
+        src: 'media/img/dereves/4.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/dereves/5.png'
+        src: 'media/img/dereves/5.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/dereves/6.png'
+        src: 'media/img/dereves/6.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/dereves/7.png'
+        src: 'media/img/dereves/7.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/dereves/8.png'
+        src: 'media/img/dereves/8.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/dereves/9.png'
+        src: 'media/img/dereves/9.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/dereves/10.png'
+        src: 'media/img/dereves/10.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/dereves/11.png'
+        src: 'media/img/dereves/11.webp'
       }
     ]
   },
@@ -646,23 +622,23 @@ const proyectos = [
       'gaffer'
     ],
     notas: 'cortometraje universitario',
-    cover: 'media/img/puntoderocio/cover.jpg',
+    cover: 'media/img/puntoderocio/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/puntoderocio/1.jpg'
+        src: 'media/img/puntoderocio/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/puntoderocio/2.jpg'
+        src: 'media/img/puntoderocio/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/puntoderocio/3.jpg'
+        src: 'media/img/puntoderocio/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/puntoderocio/4.jpg'
+        src: 'media/img/puntoderocio/4.webp'
       }
     ]
   },
@@ -675,19 +651,19 @@ const proyectos = [
       'electrico'
     ],
     notas: 'corto universitario',
-    cover: 'media/img/latidoscronometrados/cover.jpg',
+    cover: 'media/img/latidoscronometrados/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/latidoscronometrados/1.jpg'
+        src: 'media/img/latidoscronometrados/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/latidoscronometrados/2.jpg'
+        src: 'media/img/latidoscronometrados/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/latidoscronometrados/3.jpg'
+        src: 'media/img/latidoscronometrados/3.webp'
       },
     ]
   },
@@ -701,7 +677,7 @@ const proyectos = [
       'electrico'
     ],
     notas: 'corto universitario',
-    cover: 'media/img/lospajaroscantandodenoche/cover.jpg',
+    cover: 'media/img/lospajaroscantandodenoche/cover.webp',
     media: []
   },
 
@@ -712,7 +688,7 @@ const proyectos = [
       'operador de camara'
     ],
     notas: 'corto universitario',
-    cover: 'media/img/rebelionenlacarpa/cover.jpg',
+    cover: 'media/img/rebelionenlacarpa/cover.webp',
     media: []
   },
 
@@ -772,18 +748,18 @@ const proyectos = [
 
     notas: 'Texto descriptivo del proyecto. Acá podés agregar toda la información que quieras.',
 
-    cover: 'media/img/proyecto-1/cover.jpg',
+    cover: 'media/img/proyecto-1/cover.webp',
 
     media: [
 
       {
         tipo: 'imagen',
-        src: 'media/img/proyecto-1/1.jpg'
+        src: 'media/img/proyecto-1/1.webp'
       },
 
       {
         tipo: 'imagen',
-        src: 'media/img/proyecto-1/2.jpg'
+        src: 'media/img/proyecto-1/2.webp'
       }
 
     ]
@@ -802,16 +778,16 @@ const proyectos = [
 
     notas: 'Notas del segundo proyecto.',
 
-    cover: 'media/img/proyecto-2/cover.jpg',
+    cover: 'media/img/proyecto-2/cover.webp',
 
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/proyecto-2/1.jpg'
+        src: 'media/img/proyecto-2/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/proyecto-2/2.jpg'
+        src: 'media/img/proyecto-2/2.webp'
       },
       {
         tipo: 'youtube',
