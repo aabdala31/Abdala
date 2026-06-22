@@ -1,141 +1,169 @@
 const proyectos = [
   // FOTOFIJA
-
   {
-    titulo: 'antidomingo',
-    anio: '2024',
+    titulo: "viole '25",
+    anio: '2025',
     roles: [
-      'fotofija'
+      'polas'
     ],
     notas: '',
-    cover: 'media/antidomingo/cover.webp',
+    cover: 'media/viole25/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/1.webp'
+        src: 'media/viole25/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/2.webp'
+        src: 'media/viole25/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/3.webp'
+        src: 'media/viole25/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/4.webp'
+        src: 'media/viole25/4.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/5.webp'
+        src: 'media/viole25/5.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/6.webp'
+        src: 'media/viole25/6.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/7.webp'
+        src: 'media/viole25/7.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/8.webp'
+        src: 'media/viole25/8.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/9.webp'
+        src: 'media/viole25/9.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/10.webp'
+        src: 'media/viole25/10.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/11.webp'
+        src: 'media/viole25/11.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/12.webp'
+        src: 'media/viole25/12.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/13.webp'
+        src: 'media/viole25/13.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/14.webp'
+        src: 'media/viole25/14.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/15.webp'
+        src: 'media/viole25/15.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/16.webp'
+        src: 'media/viole25/16.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/17.webp'
+        src: 'media/viole25/17.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/18.webp'
+        src: 'media/viole25/18.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/19.webp'
+        src: 'media/viole25/19.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/20.webp'
+        src: 'media/viole25/20.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/21.webp'
+        src: 'media/viole25/21.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/22.webp'
+        src: 'media/viole25/22.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/23.webp'
+        src: 'media/viole25/23.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/24.webp'
+        src: 'media/viole25/24.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/25.webp'
+        src: 'media/viole25/25.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/antidomingo/26.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/antidomingo/27.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/antidomingo/28.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/antidomingo/29.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/antidomingo/30.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/antidomingo/31.webp'
+        src: 'media/viole25/26.webp'
       }
     ]
   },
+
+    {
+    titulo: "ojitos",
+    anio: '2024',
+    roles: [
+      'diseño gráfico'
+    ],
+    notas: '',
+    cover: 'media/ojitos/cover.webp',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/1.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/2.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/3.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/4.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/5.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/6.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/7.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/8.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ojitos/9.webp'
+      }
+    ]
+  },
+
 
   {
     titulo: 'asterión',
@@ -394,6 +422,58 @@ const proyectos = [
   },
 
   // POLAS / photoshoot
+
+  {
+    titulo: 'loforro fest',
+    anio: '2026',
+    roles: [
+      'shows'
+    ],
+    notas: '',
+    cover: 'media/loforrofest/cover.webp',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/loforrofest/1.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforrofest/2.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforrofest/3.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforrofest/4.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforrofest/5.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforrofest/6.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforrofest/7.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforrofest/8.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforrofest/9.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforrofest/10.webp'
+      }
+    ]
+  },
 
   {
     titulo: "marta '26",
@@ -676,118 +756,138 @@ const proyectos = [
     ]
   },
 
-  {
-    titulo: "viole '25",
-    anio: '2025',
+    {
+    titulo: 'antidomingo',
+    anio: '2024',
     roles: [
-      'polas'
+      'fotofija'
     ],
     notas: '',
-    cover: 'media/viole25/cover.webp',
+    cover: 'media/antidomingo/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/viole25/1.webp'
+        src: 'media/antidomingo/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/2.webp'
+        src: 'media/antidomingo/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/3.webp'
+        src: 'media/antidomingo/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/4.webp'
+        src: 'media/antidomingo/4.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/5.webp'
+        src: 'media/antidomingo/5.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/6.webp'
+        src: 'media/antidomingo/6.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/7.webp'
+        src: 'media/antidomingo/7.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/8.webp'
+        src: 'media/antidomingo/8.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/9.webp'
+        src: 'media/antidomingo/9.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/10.webp'
+        src: 'media/antidomingo/10.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/11.webp'
+        src: 'media/antidomingo/11.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/12.webp'
+        src: 'media/antidomingo/12.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/13.webp'
+        src: 'media/antidomingo/13.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/14.webp'
+        src: 'media/antidomingo/14.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/15.webp'
+        src: 'media/antidomingo/15.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/16.webp'
+        src: 'media/antidomingo/16.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/17.webp'
+        src: 'media/antidomingo/17.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/18.webp'
+        src: 'media/antidomingo/18.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/19.webp'
+        src: 'media/antidomingo/19.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/20.webp'
+        src: 'media/antidomingo/20.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/21.webp'
+        src: 'media/antidomingo/21.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/22.webp'
+        src: 'media/antidomingo/22.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/23.webp'
+        src: 'media/antidomingo/23.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/24.webp'
+        src: 'media/antidomingo/24.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/25.webp'
+        src: 'media/antidomingo/25.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/viole25/26.webp'
+        src: 'media/antidomingo/26.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/antidomingo/27.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/antidomingo/28.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/antidomingo/29.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/antidomingo/30.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/antidomingo/31.webp'
       }
     ]
   },
@@ -896,58 +996,6 @@ const proyectos = [
         tipo: 'imagen',
         src: 'media/dottopaotrahistoria/8.webp'
       },
-    ]
-  },
-
-  {
-    titulo: 'loforro fest',
-    anio: '2026',
-    roles: [
-      'shows'
-    ],
-    notas: '',
-    cover: 'media/loforrofest/cover.webp',
-    media: [
-      {
-        tipo: 'imagen',
-        src: 'media/loforrofest/1.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/loforrofest/2.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/loforrofest/3.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/loforrofest/4.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/loforrofest/5.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/loforrofest/6.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/loforrofest/7.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/loforrofest/8.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/loforrofest/9.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/loforrofest/10.webp'
-      }
     ]
   },
 
@@ -1288,56 +1336,6 @@ const proyectos = [
       }
     ]
   },
-
-  {
-    titulo: "ojitos",
-    anio: '2024',
-    roles: [
-      'diseño gráfico'
-    ],
-    notas: '',
-    cover: 'media/ojitos/cover.webp',
-    media: [
-      {
-        tipo: 'imagen',
-        src: 'media/ojitos/1.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/ojitos/2.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/ojitos/3.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/ojitos/4.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/ojitos/5.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/ojitos/6.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/ojitos/7.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/ojitos/8.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/ojitos/9.webp'
-      }
-    ]
-  },
-
-  
 
 ];
 

@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Alte Haas Grotesk Regular';
+    src: url('AlteHaasGroteskRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alte Haas Grotesk Bold';
+    src: url('AlteHaasGroteskBold.ttf') format('truetype');
+}
 
 /* ====================================================== */
 /* ====================== LOADER ======================== */
@@ -41,12 +50,9 @@
 
 .loaderInner h1{
 
-    font-family: "Raleway";
+    font-family: 'Alte Haas Grotesk Regular', sans-serif !important; 
 
     font-size: 1.8rem;
-
-    font-weight: bold;
-
 }
 
 /* ---------------- BAR ---------------- */

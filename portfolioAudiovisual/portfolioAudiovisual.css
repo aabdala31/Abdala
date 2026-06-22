@@ -229,6 +229,8 @@ img{
   color: white;
 
   cursor: pointer;
+
+  z-index: 2001;
 }
 
 .cerrarModal ion-icon{

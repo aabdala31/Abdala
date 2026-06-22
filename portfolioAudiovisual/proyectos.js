@@ -119,7 +119,7 @@ const proyectos = [
     roles: [
       'pasante de produccion'
     ],
-    notas: 'proyecto de Amazon dirigido por Gabriel Nesci',
+    notas: 'proyecto de Prime Video dirigido por Gabriel Nesci',
     cover: 'media/img/meub/cover.webp',
     media: [
       {
@@ -371,7 +371,7 @@ const proyectos = [
     roles: [
       'director de fotografia'
     ],
-    notas: 'corto universitario',
+    notas: 'cortometraje universitario',
     cover: 'media/img/oidossordos/cover.webp',
     media: [
       {
@@ -399,7 +399,7 @@ const proyectos = [
     roles: [
       'director de arte'
     ],
-    notas: 'corto universitario',
+    notas: 'cortometraje universitario',
     cover: 'media/img/entrepeluches/cover.webp',
     media: [
       {
@@ -459,7 +459,7 @@ const proyectos = [
     roles: [
       'electrico'
     ],
-    notas: 'seven kayne, videoclip',
+    notas: 'videoclip',
     cover: 'media/img/unratitomas/cover.webp',
     media: [
             {
@@ -503,7 +503,7 @@ const proyectos = [
     roles: [
       'electrico'
     ],
-    notas: 'corto universitario, 7SIFF',
+    notas: 'cortometraje universitario, 7SIFF',
     cover: 'media/img/eltiro/cover.webp',
     media: [
       {
@@ -532,7 +532,7 @@ const proyectos = [
       '1AC',
       '2AC'
     ],
-    notas: 'corto universitario, Festival Rojo Sangre',
+    notas: 'cortometraje universitario, Festival Rojo Sangre',
     cover: 'media/img/latex/cover.webp',
     media: [
       {
@@ -650,7 +650,7 @@ const proyectos = [
       '2AC',
       'electrico'
     ],
-    notas: 'corto universitario',
+    notas: 'cortometraje universitario',
     cover: 'media/img/latidoscronometrados/cover.webp',
     media: [
       {
@@ -676,7 +676,7 @@ const proyectos = [
     roles: [
       'electrico'
     ],
-    notas: 'corto universitario',
+    notas: 'cortometraje universitario',
     cover: 'media/img/lospajaroscantandodenoche/cover.webp',
     media: []
   },
@@ -687,7 +687,7 @@ const proyectos = [
     roles: [
       'operador de camara'
     ],
-    notas: 'corto universitario',
+    notas: 'cortometraje universitario',
     cover: 'media/img/rebelionenlacarpa/cover.webp',
     media: []
   },
@@ -698,7 +698,7 @@ const proyectos = [
     roles: [
       'electrico'
     ],
-    notas: 'corto universitario',
+    notas: 'cortometraje universitario',
     cover: '',
     media: []
   },
