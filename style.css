@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-drag: none;
+  user-select: none;
 }
 
 html,
@@ -102,12 +105,6 @@ body{
     transform: rotate(360deg);
   }
 
-}
-
-/* HOVER */
-
-.logo:hover{
-  animation: spinLogo 3s linear infinite;
 }
 
 /* BOTONES */

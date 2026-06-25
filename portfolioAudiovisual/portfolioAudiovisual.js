@@ -10,6 +10,12 @@ const modalAnio = document.getElementById('modalAnio');
 const modalRol = document.getElementById('modalRol');
 const modalNotas = document.getElementById('modalNotas');
 
+document.addEventListener('contextmenu', (e) => {
+  if (e.target.closest('img')) {
+    e.preventDefault();
+  }
+});
+
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 
