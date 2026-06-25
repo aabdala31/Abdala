@@ -332,10 +332,11 @@ update();
 // ================= AUTO MOVIE CAROUSEL =================
 
 const track = document.querySelector('.carouselTrack');
+const carousel = track.closest('.movieCarousel');
 
 const originalCards = [...document.querySelectorAll('.movieCard')];
 
-const cardsPerView = window.innerWidth <= 768 ? 1 : 2;
+let cardsPerView = window.innerWidth <= 768 ? 1 : 2;
 
 // clones
 const firstClones = originalCards
@@ -361,14 +362,20 @@ let currentIndex = cardsPerView;
 
 function updateCarousel(animated = true) {
 
-  const cardWidth = cards[0].offsetWidth + 16;
+  const trackStyle = getComputedStyle(track);
+  const gap = parseFloat(trackStyle.gap) || 0;
+  const cardWidth = cards[0].offsetWidth + gap;
+  const carouselWidth = carousel.offsetWidth;
+  const centerOffset = cardsPerView === 1
+    ? (carouselWidth - cards[0].offsetWidth) / 2
+    : 0;
 
   track.style.transition = animated
     ? 'transform .5s ease'
     : 'none';
 
   track.style.transform =
-    `translateX(-${currentIndex * cardWidth}px)`;
+    `translateX(-${currentIndex * cardWidth - centerOffset}px)`;
 }
 
 // posición inicial
@@ -403,6 +410,13 @@ track.addEventListener('transitionend', () => {
 setInterval(autoSlide, 3000);
 
 window.addEventListener('resize', () => {
+  const newCardsPerView = window.innerWidth <= 768 ? 1 : 2;
+
+  if (newCardsPerView !== cardsPerView) {
+    cardsPerView = newCardsPerView;
+    currentIndex = cardsPerView;
+  }
+
   updateCarousel(false);
 });
 

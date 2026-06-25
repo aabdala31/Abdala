@@ -285,11 +285,12 @@ body{
 
 .movieCard img{
 
-    min-height: calc(100% - 2.5rem);
+    width: 100%;
+    max-height: calc(100% - 2.5rem);
 
     aspect-ratio: 2 / 3;
 
-    object-fit: cover;
+    object-fit: contain;
 
     transition: transform 0.3s ease;
 }
@@ -399,7 +400,15 @@ body{
 
     .movieCard{
 
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
         height: 500px;
+    }
+
+    .carouselTrack{
+
+        gap: 0;
     }
 
     .movieInfo{
