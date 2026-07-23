@@ -366,29 +366,57 @@ const proyectos = [
   },
 
   {
-    titulo: 'Oídos sordos',
-    anio: '2024',
+    titulo: 'El hombre que mató a Humphrey Bogart',
+    anio: '2026',
     roles: [
-      'director de fotografia'
+      '1AC'
     ],
     notas: 'cortometraje universitario',
-    cover: 'media/img/oidossordos/cover.webp',
+    cover: 'media/img/elhombrequematoahumphreybogart/cover.webp',
     media: [
       {
         tipo: 'imagen',
-        src: 'media/img/oidossordos/1.webp'
+        src: 'media/img/elhombrequematoahumphreybogart/1.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/oidossordos/2.webp'
+        src: 'media/img/elhombrequematoahumphreybogart/2.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/oidossordos/3.webp'
+        src: 'media/img/elhombrequematoahumphreybogart/3.webp'
       },
       {
         tipo: 'imagen',
-        src: 'media/img/oidossordos/4.webp'
+        src: 'media/img/elhombrequematoahumphreybogart/4.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/elhombrequematoahumphreybogart/5.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/elhombrequematoahumphreybogart/6.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/elhombrequematoahumphreybogart/7.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/elhombrequematoahumphreybogart/8.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/elhombrequematoahumphreybogart/9.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/elhombrequematoahumphreybogart/10.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/elhombrequematoahumphreybogart/11.webp'
       }
     ]
   },
@@ -667,6 +695,35 @@ const proyectos = [
       },
     ]
   },
+
+  {
+    titulo: 'Oídos sordos',
+    anio: '2024',
+    roles: [
+      'director de fotografia'
+    ],
+    notas: 'cortometraje universitario',
+    cover: 'media/img/oidossordos/cover.webp',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/img/oidossordos/1.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/oidossordos/2.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/oidossordos/3.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/oidossordos/4.webp'
+      }
+    ]
+  },
+
 
 
 /* 
