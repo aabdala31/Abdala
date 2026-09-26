@@ -116,7 +116,115 @@ const proyectos = [
     ]
   },
 
-    {
+  {
+    titulo: "rancho padel",
+    anio: '2026',
+    roles: [
+      'eventos'
+    ],
+    notas: 'fotografia de evento y de marcas para evento de padel producido por Rancho',
+    cover: 'media/ranchopadel/cover.webp',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/1.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/2.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/3.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/4.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/5.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/6.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/7.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/8.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/9.webp'
+      },
+            {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/10.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/11.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/12.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/13.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/14.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/15.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/16.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/17.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/18.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/19.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/20.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/21.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/22.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/23.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/ranchopadel/24.webp'
+      }
+    ]
+  },
+
+  {
     titulo: "ojitos",
     anio: '2024',
     roles: [
@@ -472,6 +580,70 @@ const proyectos = [
         tipo: 'imagen',
         src: 'media/loforrofest/10.webp'
       }
+    ]
+  },
+
+  {
+    titulo: 'loforro skatepark',
+    anio: '2026',
+    roles: [
+      'shows'
+    ],
+    notas: '',
+    cover: 'media/loforroskatepark/cover.webp',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/1.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/2.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/3.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/4.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/5.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/6.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/7.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/8.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/9.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/10.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/11.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/12.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/loforroskatepark/13.webp'
+      },
     ]
   },
 
