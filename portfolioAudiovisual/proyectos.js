@@ -82,6 +82,10 @@ const proyectos = [
         tipo: 'imagen',
         src: 'media/img/entrenosotras/12.webp'
       },
+      {
+        tipo: 'youtube',
+        src: 'https://www.youtube.com/embed/RUe8qRLPVHk?si=sS0uV5q6AHmetXkZ'
+      }
     ]
   },
 

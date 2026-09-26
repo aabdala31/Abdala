@@ -4,9 +4,9 @@ const proyectos = [
     titulo: "viole '25",
     anio: '2025',
     roles: [
-      'polas'
+      'polas', 'photoshoot'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/viole25/cover.webp',
     media: [
       {
@@ -230,7 +230,7 @@ const proyectos = [
     roles: [
       'diseño gráfico'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/ojitos/cover.webp',
     media: [
       {
@@ -279,7 +279,7 @@ const proyectos = [
     roles: [
       'fotofija'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/asterion/cover.webp',
     media: [
       {
@@ -427,7 +427,7 @@ const proyectos = [
     roles: [
       'fotofija'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/insulina/cover.webp',
     media: [
       {
@@ -537,7 +537,7 @@ const proyectos = [
     roles: [
       'shows'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/loforrofest/cover.webp',
     media: [
       {
@@ -589,7 +589,7 @@ const proyectos = [
     roles: [
       'shows'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/loforroskatepark/cover.webp',
     media: [
       {
@@ -653,7 +653,7 @@ const proyectos = [
     roles: [
       'polas'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/marta26/cover.webp',
     media: [
       {
@@ -693,7 +693,7 @@ const proyectos = [
     roles: [
       'photoshoot'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/flapper/cover.webp',
     media: [
       {
@@ -722,7 +722,7 @@ const proyectos = [
     roles: [
       'photoshoot'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/koven25/cover.webp',
     media: [
       {
@@ -822,7 +822,7 @@ const proyectos = [
     roles: [
       'polas'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/maia25/cover.webp',
     media: [
       {
@@ -934,7 +934,7 @@ const proyectos = [
     roles: [
       'fotofija'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/antidomingo/cover.webp',
     media: [
       {
@@ -1070,7 +1070,7 @@ const proyectos = [
     roles: [
       'polas'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/toto25/cover.webp',
     media: [
       {
@@ -1133,7 +1133,7 @@ const proyectos = [
     roles: [
       'shows'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/dottopaotrahistoria/cover.webp',
     media: [
       {
@@ -1177,7 +1177,7 @@ const proyectos = [
     roles: [
       'shows'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/bajopresion/cover.webp',
     media: [
       {
@@ -1211,7 +1211,7 @@ const proyectos = [
     roles: [
       'viajes'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/costadeleste24/cover.webp',
     media: [
       {
@@ -1259,7 +1259,7 @@ const proyectos = [
     roles: [
       'photoshoot'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/sofia24/cover.webp',
     media: [
       {
@@ -1315,7 +1315,7 @@ const proyectos = [
     roles: [
       'viajes'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/puntadeleste26/cover.webp',
     media: [
       {
@@ -1347,7 +1347,7 @@ const proyectos = [
     roles: [
       'viajes'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/sanantoniodeareco24/cover.webp',
     media: [
       {
@@ -1439,7 +1439,7 @@ const proyectos = [
     roles: [
       'diseño gráfico'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/flyersvarios/cover.webp',
     media: [
       {
@@ -1479,7 +1479,7 @@ const proyectos = [
     roles: [
       'diseño gráfico'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/scorpiozine/cover.webp',
     media: [
       {
@@ -1519,7 +1519,7 @@ const proyectos = [
     roles: [
       'fotofija'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/latita/cover.webp',
     media: [
       {
@@ -1539,7 +1539,7 @@ const proyectos = [
     roles: [
       'fotofija'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/tedijequenovengas/cover.webp',
     media: [
       {
@@ -1559,7 +1559,7 @@ const proyectos = [
     roles: [
       'fotografia de evento'
     ],
-    notas: '',
+    notas: '-',
     cover: 'media/lanzamientoinquilinos/cover.webp',
     media: [
       {
