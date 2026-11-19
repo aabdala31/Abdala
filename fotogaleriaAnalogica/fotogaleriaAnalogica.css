@@ -161,8 +161,17 @@ body{
   overflow:hidden;
 }
 
+.chica{
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
 .alta{
   grid-row: span 3;
+}
+
+.superalta{
+  grid-row: span 4;
 }
 
 .ancha{

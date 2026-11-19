@@ -145,57 +145,7 @@ const proyectos = [
     ]
   },
 
-  {
-    titulo: 'ANAMORFOSIS',
-    anio: '2024',
-    roles: [
-      'director',
-      'editor'
-    ],
-    notas: 'proyecto experimental',
-    cover: 'media/img/anamorfosis/cover.webp',
-    media: [
-      {
-        tipo: 'youtube',
-        src: 'https://www.youtube.com/embed/p27cw5bgnPk?si=pC2q0sSpkXuWVP4D'
-      }
-    ]
-  },
-
-  {
-    titulo: 'ONIRICO',
-    anio: '2024',
-    roles: [
-      'director',
-      'editor'
-    ],
-    notas: 'proyecto experimental',
-    cover: 'media/img/onirico/cover.webp',
-    media: [
-       {
-        tipo: 'imagen',
-        src: 'media/img/onirico/1.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/onirico/2.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/onirico/3.webp'
-      },
-      {
-        tipo: 'imagen',
-        src: 'media/img/onirico/4.webp'
-      },
-      {
-        tipo: 'youtube',
-        src: 'https://www.youtube.com/embed/yuqcF0sfGVw?si=3RwZ2QjSS_1mcDP3&amp;controls=0'
-      }
-    ]
-  },
-
-  {
+    {
     titulo: '2009',
     anio: '2024',
     roles: [
@@ -366,6 +316,120 @@ const proyectos = [
         tipo: 'imagen',
         src: 'media/img/laboratorios/4.webp'
       },
+    ]
+  },
+
+  {
+    titulo: 'GG EXPORT - OSSY RAVE',
+    anio: '2026',
+    roles: [
+      'cobertura'
+    ],
+    notas: 'cobertura de GG EPORT en OSSY RAVE',
+    cover: 'media/img/ggexport/cover.webp',
+    media: [
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/1.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/2.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/3.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/4.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/5.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/6.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/7.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/8.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/9.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/10.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/11.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/12.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/ggexport/13.webp'
+      }
+    ]
+  },
+
+  {
+    titulo: 'ANAMORFOSIS',
+    anio: '2024',
+    roles: [
+      'director',
+      'editor'
+    ],
+    notas: 'proyecto experimental',
+    cover: 'media/img/anamorfosis/cover.webp',
+    media: [
+      {
+        tipo: 'youtube',
+        src: 'https://www.youtube.com/embed/p27cw5bgnPk?si=pC2q0sSpkXuWVP4D'
+      }
+    ]
+  },
+
+  {
+    titulo: 'ONIRICO',
+    anio: '2024',
+    roles: [
+      'director',
+      'editor'
+    ],
+    notas: 'proyecto experimental',
+    cover: 'media/img/onirico/cover.webp',
+    media: [
+       {
+        tipo: 'imagen',
+        src: 'media/img/onirico/1.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/onirico/2.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/onirico/3.webp'
+      },
+      {
+        tipo: 'imagen',
+        src: 'media/img/onirico/4.webp'
+      },
+      {
+        tipo: 'youtube',
+        src: 'https://www.youtube.com/embed/yuqcF0sfGVw?si=3RwZ2QjSS_1mcDP3&amp;controls=0'
+      }
     ]
   },
 
